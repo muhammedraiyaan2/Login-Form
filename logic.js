@@ -5,11 +5,7 @@ btn.addEventListener("click",function(){
     localStorage.setItem("userId",user)
     localStorage.setItem("password",password)
     document.write(`<h1 style="color:green; text-align:center;">
-    Check
-    the 
-    console
-    or 
-    press ctrl + shift + i</h1>`)
-    console.log(`your user name is`,user.value);
-    console.log(`your password is`,password.value)
+Successfully saved your user id and password</h1>`)
+    document.write(`<h1>your user name is</h1>`,user.value+"<br>");
+    document.write(`<h1>your password is</h1>`,password.value)
 })
