@@ -1,5 +1,5 @@
 .container{
-    background-image: url(login%20back.jpg);
+    background-image: url(https://muhammedraiyaan2.github.io/Server/login%20back.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -17,6 +17,7 @@ border: 0px solid black;
 border-bottom: 2px solid red;
 padding-top: 10px;
 padding-bottom: 10px;
+
 }
 .pass{
 background-color: transparent;
